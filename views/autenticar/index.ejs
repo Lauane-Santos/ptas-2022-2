@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/autenticar.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="formulario">
+      <form action="/logar" method="post">
+        <div class="form"><label for="user"></label>Usuario:</div>
+        <input
+          type="text"
+          name="usuario"
+          id="usuario"
+          style="
+            width: 50%;
+            border-radius: 10px;
+            margin-left: 25%;
+            height: 20px;
+          "
+        /><br />
+        <div class="form"><label for="password"></label>Senha:</div>
+        <input
+          type="text"
+          name="senha"
+          id="senha"
+          style="
+            width: 50%;
+            border-radius: 10px;
+            margin-left: 25%;
+            height: 20px;
+          "
+        />
+
+        <input class="button" type="submit" value="Logar" />
+      </form>
+    </div>
+  </body>
+</html>
